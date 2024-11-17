@@ -1,0 +1,91 @@
+table{
+    color: rgba(255, 255, 255, 0.712);
+    border:10px groove rgb(152, 152, 226);
+    padding: 30px;
+    margin-left:35%;
+    font-size: 25px;
+    font-weight: 900;
+}
+td {
+    border: 5px solid rgb(139, 139, 235);
+    padding: 50px;
+    border-radius: 50%;
+transition: all 1s;    
+}
+caption{
+    font-size: 35px;
+}
+td:hover{
+background-color: rgb(0, 255, 13) ;
+cursor: pointer;
+}
+#D1:hover{
+        background-color: rgb(255, 0, 0) ;
+        cursor: pointer;
+}
+#Y2:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+section{
+    padding: 50px;
+}
+body{
+    margin:0
+}
+#DIV1{
+    display: flex;
+}
+#DIV1 img{
+    width:25%;
+}
+#Film video{
+width: 100%;
+}
+#cloud
+{
+margin:auto
+}
+#snow1
+{
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    animation: foll 8s infinite;
+}
+#snow2
+{
+    position: absolute;
+    top: 75px;
+    left: 45%;
+    animation: foll 13s infinite;
+}
+#snow3
+{
+    position: absolute;
+    top: 85px;
+    left: 55%;
+    animation: foll 10s infinite;
+}
+#snow4
+{
+    position: absolute;
+    top: 95px;
+    left: 75%;
+    animation: foll 7s infinite;
+}
+@keyframes foll {
+ from {
+    transform: translateY(0) rotate(0);
+    opacity:1;
+ }
+ to {
+    opacity:0;
+    transform: translateY(250vh) rotate(720deg);
+ }
+}
+#roll img{
+width: 500px;
+height: 300px;
+object-fit: cover;
+}
